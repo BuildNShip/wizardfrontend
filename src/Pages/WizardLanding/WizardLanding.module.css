@@ -1,6 +1,42 @@
+.main_container {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+
 .row {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-evenly;
   align-items: center;
+}
+
+.fv_heading{
+  font-family: "Poppins", sans-serif;
+  font-size: 2rem;
+  color: #2c7a7b;
+}
+
+.instruction_box {
+  margin: 1rem;
+  margin-top: 2rem;
+}
+
+.ins_header {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.1rem;
+  color: #2c7a7b;
+}
+
+.ins_tagline {
+  font-family: "Poppins", sans-serif;
+  font-size: 0.8rem;
+  max-width: 20rem;
+}
+
+.row_container{
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  align-items: center;
+  flex: wrap;
 }
